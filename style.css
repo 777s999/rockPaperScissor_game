@@ -11,12 +11,12 @@ h1 {
 }
 
 .choice {
-  height: 165px;
-  width: 165px;
+  height: 170px;
+  width: 170px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 .choice:hover {
   cursor: pointer;
@@ -54,7 +54,7 @@ img {
   margin-top: 5rem;
 }
 #msg {
-  background-color: #0ade38;
+  background-color: hsl(222, 94%, 40%);
   color: #fff;
   font-size: 2rem;
   display: inline;
